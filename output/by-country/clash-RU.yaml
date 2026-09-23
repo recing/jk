@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 46.8.200.91
+  server: 63.141.128.22
   port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: cf3.rumedia-cdn.com
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
 proxy-groups:
 - name: PROXIES
   type: select
