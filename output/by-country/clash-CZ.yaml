@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
-  type: vless
-  server: 104.21.43.115
-  port: 443
-  uuid: ccaa9413-2163-466e-a915-29c215b0be0a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nEtRa-28e601.rUZgArSiS053GmAIlCoMsaccOunT.WORKERs.DEV
-  network: ws
-  ws-opts:
-    path: /vl/D1utewa490l8iCymueVABy77F5t?ed=2560
-    headers:
-      Host: netra-28e601.ruzgarsis053gmailcomsaccount.workers.dev
-- name: 🇨🇿 CZ 02 - xiaohe
   type: ss
   server: 194.87.233.93
   port: 46190
@@ -31,13 +17,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇿 CZ 01 - xiaohe
-  - 🇨🇿 CZ 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 CZ 01 - xiaohe
-  - 🇨🇿 CZ 02 - xiaohe
 rules:
 - MATCH,PROXIES
